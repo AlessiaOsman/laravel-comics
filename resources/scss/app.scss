@@ -3,4 +3,6 @@
 @use 'generics';
 @use 'utils';
 @use 'reset';
-@use 'header/header'
+@use 'header/header';
+@use 'footer/footer.scss';
+@use 'home/home'

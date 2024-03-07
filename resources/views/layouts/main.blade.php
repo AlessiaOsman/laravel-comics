@@ -10,13 +10,15 @@
 </head>
 
 <body>
-    @include('includes.header');
-    <main id='app'>
-        <div class='container'>
-            @yield('main-content')
-        </div>
-    </main>
-
+    <div id='app'>
+        @include('includes.header')
+        <main>
+            <div class='container'>
+                @yield('main-content')
+            </div>
+        </main>
+        @include('includes.footer')
+    </div>
 </body>
 
 </html>
