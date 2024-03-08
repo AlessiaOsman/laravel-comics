@@ -7,15 +7,15 @@
     <title>{{ env('APP_NAME') }} | @yield('title')</title>
     <!-- Styles -->
     @vite('resources/js/app.js')
+
+    @yield('cdns')
 </head>
 
 <body>
     <div id='app'>
         @include('includes.header')
         <main>
-            <div class='container'>
-                @yield('main-content')
-            </div>
+            @yield('main-content')
         </main>
         @include('includes.footer')
     </div>

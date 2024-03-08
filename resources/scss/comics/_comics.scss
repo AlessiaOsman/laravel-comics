@@ -1,43 +1,126 @@
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 -1rem;
+#main-comics-content {
+    background-color: #000;
+    padding: 70px;
 
-    .col {
-        flex-basis: calc(100% / 6);
-        padding: 0 1rem;
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -1rem;
 
-        img {
-            height: 200px;
-            width: 200px;
-            max-width: 100%;
-            display: block;
-            margin-bottom: 16px;
-        }
+        .col {
+            flex-basis: calc(100% / 6);
+            padding: 0 1rem;
 
-        h4{ 
-            margin-bottom: 16px;
+            img {
+                height: 200px;
+                width: 200px;
+                max-width: 100%;
+                display: block;
+                margin-bottom: 16px;
+            }
+
+            h4 {
+                margin-bottom: 16px;
+            }
         }
     }
+
+    button {
+        color: #fff;
+        background-color: #0282f9;
+        padding: 16px 24px;
+        font-weight: bold;
+        border: none;
+        margin-top: 16px;
+    }
+
+    .comics-label {
+        font-weight: bold;
+        font-size: 24px;
+        color: white;
+        position: absolute;
+        background-color: #0282f9;
+        padding: 16px 32px;
+        top: -25px;
+        left: 100px;
+    }
+
+
 }
 
-button{
-    color: #fff;
-    background-color: #0282f9;
-    padding: 16px 24px;
-    font-weight: bold;
-    border: none;
-    margin-top: 16px;
-}
+#main-comic-card-content {
 
-p{
-    font-weight: bold;
-    font-size: 50px;
-    color: white;
-    position: absolute;
-    background-color: #0282f9;
-    padding: 16px 32px;
-    top: -25px;
-    left: 100px;
-}
+    padding: 70px;
+    text-align: left;
 
+    .comic-card {
+        display: flex;
+        width: 100%;
+        gap: 50px;
+
+        .left {
+            flex-basis: 70%;
+
+            .card-title{
+                text-transform: uppercase;
+                color: #003f5e;
+            }
+
+            .card-header {
+                display: flex;
+                background-color: #55ba59;
+                margin: 16px 0;
+
+
+                .card-header-left {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-basis: 70%;
+                    border-right: 1px solid #000000;
+                    padding: 16px;
+
+                    h5 {
+                        color: #d6eed0;
+
+                        span {
+                            color: #fff;
+                        }
+                    }
+                }
+
+                .card-header-right {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-basis: 30%;
+                    color: #fff;
+                }
+            }
+
+            .card-description {
+                font-size: 16px;
+                color: #5e636c;
+            }
+        }
+
+        .right{
+            flex-basis: 30%;
+
+            h4{
+                text-align: end;
+                color: #5e636c;
+                margin-bottom: 8px;
+            }
+
+            img{
+                width: 100%;
+            }
+
+        }
+
+        
+    }
+
+
+
+}
