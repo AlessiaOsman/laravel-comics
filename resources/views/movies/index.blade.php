@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
-@section('title', 'Home')
+@section('title', $name)
 
 @section('main-content')
-    <h1>Scopri il nostro sito</h1>
+   <h1>Movies</h1>
 @endsection

@@ -3,5 +3,5 @@
 @section('title', $name)
 
 @section('main-content')
-    Benvenuti nella pagina {{$name}}
+   <h1>Vieos</h1>
 @endsection

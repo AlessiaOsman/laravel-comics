@@ -3,43 +3,43 @@
 return [
     [
         'text' => 'CHARACTERS',
-        'url' => '#',
+        'route_name' => 'characters',
     ],
     [
         'text' => 'COMICS',
-        'url' => '#',
+        'route_name' => 'comics',
     ],
     [
         'text' => 'MOVIES',
-        'url' => '#',
+        'route_name' => 'movies',
     ],
     [
         'text' => 'TV',
-        'url' => '#',
+        'route_name' => 'tv',
     ],
     [
         'text' => 'GAMES',
-        'url' => '#',
+        'route_name' => 'games',
     ],
     [
         'text' => 'COLLECTIBLES',
-        'url' => '#',
+        'route_name' => 'collectibles',
     ],
     [
         'text' => 'VIDEOS',
-        'url' => '#',
+        'route_name' => 'videos',
     ],
     [
         'text' => 'FANS',
-        'url' => '#',
+        'route_name' => 'fans',
     ],
     [
         'text' => 'NEWS',
-        'url' => '#',
+        'route_name' => 'news',
     ],
     [
         'text' => 'SHOP',
-        'url' => '#',
+        'route_name' => 'shop',
     ],
     
 ];
