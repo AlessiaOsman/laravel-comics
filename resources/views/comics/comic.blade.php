@@ -6,6 +6,9 @@
 
 @section('main-content')
     <div id='main-comic-card-content'>
+    <div class='section-blue'>
+        <img src='{{$comic['thumb']}}'/>
+    </div>
         <div class='container'>
             <div class='comic-card'>
         <div class='left'>
