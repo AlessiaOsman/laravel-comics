@@ -56,21 +56,27 @@
     .section-blue{
         background-color: #0282f9;
         height: 50px;
-        position: relative;
+        
 
-        img{
-            position: absolute;
-            width: 200px;
-            bottom: 16px;
-            left: 170px;
+        .section-blue-container{
+            position: relative;
+            img{
+                position: absolute;
+                width: 200px;
+                bottom: -25px;
+                left: 0;
+            }
+
         }
+
+        
     }
 
     .comic-card {
         display: flex;
         width: 100%;
         gap: 50px;
-        padding: 70px;
+        padding: 70px 0;
 
         .left {
             flex-basis: 70%;
@@ -135,6 +141,24 @@
         
     }
 
+    .comic-info-container{
 
+        background-color: #f6f6f6;
+
+        .info-table{
+            display: flex;
+            flex-direction: row;
+
+            .table-container{
+
+                flex-basis: 50%;
+
+                h2{
+                    color: 003f5e;
+                }
+            }
+        }
+
+    }
 
 }
